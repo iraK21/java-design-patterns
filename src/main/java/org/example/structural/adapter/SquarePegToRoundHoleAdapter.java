@@ -1,5 +1,6 @@
 package org.example.structural.adapter;
 
+// Adapter to fit Square Pegs to Round Holes
 public class SquarePegToRoundHoleAdapter extends RoundPeg { // extending RoundPeg so that adapter objects can act as RoundPegs
     private final SquarePeg squarePeg; // Wrapper around SquarePeg
 
